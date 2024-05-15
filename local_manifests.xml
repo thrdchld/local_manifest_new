@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="gh"
+            fetch="https://github.com"
+            clone-depth="1" />
+ <!--Tree -->
+ <project path="device/xiaomi/surya" name="Jack-Pots/android_device_xiaomi_karna-PixelOS" remote="gh" revision="PixelOS-14" />
+
+ <!--Kernel -->
+ <project path="kernel/xiaomi/surya" name="CHRISL7/kernel_xiaomi_surya" remote="gh" revision="uvite" />
+ 
+ <!--Vendor -->
+ <project path="vendor/xiaomi/surya" name="xiaomi-surya/android_vendor_xiaomi_surya" remote="gh" revision="lineage-21" />
+ 
+ <!--Extras -->
+ <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="gh" revision="cm-14.1" /> -->
+</manifest>
