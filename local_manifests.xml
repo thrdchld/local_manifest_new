@@ -6,7 +6,7 @@
             clone-depth="1" />
  
  <!--Tree -->
- <project path="device/asus/X01BD" name="rk779/android_device_asus_X01BD" remote="gh" revision="lineage-17.1" />
+ <project path="device/asus/X01BD" name="thrdchld/android_device_asus_X01BD" remote="gh" revision="lineage-17.1" />
  <project path="device/asus/sdm660-common" name="rk779/android_device_asus_sdm660-common" remote="gh" revision="lineage-17.1" />
  
  <!--Vendor -->
