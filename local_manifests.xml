@@ -4,15 +4,15 @@
     <remote name="gh"
             fetch="https://github.com"
             clone-depth="1" />
+ 
  <!--Tree -->
- <project path="device/xiaomi/surya" name="Jack-Pots/android_device_xiaomi_karna-PixelOS" remote="gh" revision="PixelOS-14" />
-
- <!--Kernel -->
- <project path="kernel/xiaomi/surya" name="CHRISL7/kernel_xiaomi_surya" remote="gh" revision="uvite" />
+ <project path="device/asus/X01BD" name="rk779/android_device_asus_X01BD" remote="gh" revision="lineage-17.1" />
+ <project path="device/asus/sdm660-common" name="rk779/android_device_asus_sdm660-common" remote="gh" revision="lineage-17.1" />
  
  <!--Vendor -->
- <project path="vendor/xiaomi/surya" name="xiaomi-surya/android_vendor_xiaomi_surya" remote="gh" revision="lineage-21" />
+ <project path="vendor/asus" name="rk779/proprietary_vendor_asus" remote="gh" revision="lineage-17.1" />
+
+  <!--Kernel -->
+ <project path="kernel/asus/sdm660" name="rk779/android_kernel_asus_sdm660" remote="gh" revision="lineage-17.1" />
  
- <!--Extras -->
- <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="gh" revision="cm-14.1" /> -->
 </manifest>
