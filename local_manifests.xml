@@ -3,7 +3,7 @@
  <!-- Remotes -->
     <remote name="gh"
             fetch="https://github.com"
-            clone-depth="1" />
+            clone-depth="1" /> 
  
  <!--Tree -->
  <project path="device/asus/X01BD" name="thrdchld/android_device_asus_X01BD" remote="gh" revision="qassa" />
@@ -11,7 +11,11 @@
  <!--Vendor -->
  <project path="vendor/asus" name="thrdchld/android_vendor_asus_X01BD" remote="gh" revision="qassa" />
 
-  <!--Kernel -->
+ <!--Kernel -->
  <project path="kernel/asus/sdm660" name="SonalSingh18/android_kernel_asus_sdm660" remote="gh" revision="ten" />
+
+ <!--Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-12.0.0" name="kdrag0n/proton-clang" remote="gh" revision="master" />
+
  
 </manifest>
