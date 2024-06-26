@@ -17,5 +17,8 @@
  <!--Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-12.0.0" name="kdrag0n/proton-clang" remote="gh" revision="master" />
 
+ <!--7sim -->
+ <project path="packages/apps/7SIM" name="iusmac/7SIM" remote="gh" revision="14.0-dev" />
+
  
 </manifest>
