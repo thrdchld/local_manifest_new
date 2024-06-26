@@ -23,7 +23,7 @@
  <project path="hardware/qcom-caf/msm8998" name="AOSP-10/hardware_qcom-caf_display_msm8998" remote="gh" revision="10" />
  
  <!--7sim -->
- <project path="packages/apps/7SIM" name="iusmac/7SIM" remote="gh" revision="14.0-dev" />
+  <!-- <project path="packages/apps/7SIM" name="iusmac/7SIM" remote="gh" revision="14.0-dev" /> -->
 
  
 </manifest>
