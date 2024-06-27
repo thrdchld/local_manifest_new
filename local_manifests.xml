@@ -11,7 +11,15 @@
  <!--Vendor -->
  <project path="vendor/asus" name="thrdchld/android_vendor_asus_X01BD" remote="gh" revision="ten" />
 
-  <!--Kernel -->
+ <!--Kernel -->
  <project path="kernel/asus/sdm660" name="SonalSingh18/android_kernel_asus_sdm660" remote="gh" revision="ten" />
+
+ <!--Clang -->
+ <remove project="prebuilts/clang/host/linux-x86/clang-12.0.0" />
+ <project path="prebuilts/clang/host/linux-x86/clang-12.0.0" name="kdrag0n/proton-clang" remote="gh" revision="master" />
+
+ <!--fix night light -->
+ <remove project="hardware/qcom-caf/msm8998" />
+ <project path="hardware/qcom-caf/msm8998" name="AOSP-10/hardware_qcom-caf_display_msm8998" remote="gh" revision="10" />
  
 </manifest>
