@@ -6,24 +6,17 @@
             clone-depth="1" /> 
  
  <!--Tree -->
- <project path="device/asus/X01BD" name="thrdchld/android_device_asus_X01BD" remote="gh" revision="qassa" />
+ <project path="device/asus/X01BD" name="ArrowOS-Devices/android_device_asus_X01BD" remote="gh" revision="arrow-10.0" />
  
  <!--Vendor -->
- <project path="vendor/asus" name="thrdchld/android_vendor_asus_X01BD" remote="gh" revision="qassa" />
+ <project path="vendor/asus" name="ArrowOS-Devices/android_vendor_asus_sdm660" remote="gh" revision="arrow-10.0" />
 
  <!--Kernel -->
- <project path="kernel/asus/sdm660" name="SonalSingh18/android_kernel_asus_sdm660" remote="gh" revision="ten" />
+ <project path="kernel/asus/sdm660" name="ArrowOS-Devices/android_kernel_asus_X01BD" remote="gh" revision="arrow-10.0" />
 
  <!--Clang -->
  <remove project="prebuilts/clang/host/linux-x86/clang-12.0.0" />
  <project path="prebuilts/clang/host/linux-x86/clang-12.0.0" name="kdrag0n/proton-clang" remote="gh" revision="master" />
-
- <!--fix night light -->
- <remove project="hardware/qcom-caf/msm8998/display" />
- <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" remote="gh" revision="lineage-17.1-caf-msm8998" />
- 
- <!--7sim -->
-  <!-- <project path="packages/apps/7SIM" name="iusmac/7SIM" remote="gh" revision="14.0-dev" /> -->
 
  
 </manifest>
