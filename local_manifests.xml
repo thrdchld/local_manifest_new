@@ -6,12 +6,13 @@
             clone-depth="1" />
  
  <!--Tree -->
- <project path="device/asus/X01BD" name="thrdchld/android_device_asus_X01BD_ten" remote="gh" revision="los-17.1-revived" />
+ <project path="device/asus/X01BD" name="Shibi404/device_asus_X01BD" remote="gh" revision="ten" />
+ <project path="device/asus/sdm660-common" name="Shibi404/Shibi404/device_asus_sdm660-common" remote="gh" revision="ten" />
  
  <!--Vendor -->
- <project path="vendor/asus" name="SonalSingh18/android_vendor_asus_X01BD" remote="gh" revision="ten" />
+ <project path="vendor/asus" name="Shibi404/vendor_asus" remote="gh" revision="ten" />
 
   <!--Kernel -->
- <project path="kernel/asus/sdm660" name="SonalSingh18/android_kernel_asus_sdm660" remote="gh" revision="ten" />
+ <project path="kernel/asus/sdm660" name="Shibi404/kernel_asus_sdm660" remote="gh" revision="perf" />
  
 </manifest>
