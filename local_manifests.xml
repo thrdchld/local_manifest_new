@@ -7,7 +7,7 @@
  
  <!--Tree -->
  <project path="device/asus/X01BD" name="Shibi404/device_asus_X01BD" remote="gh" revision="ten" />
- <project path="device/asus/sdm660-common" name="Shibi404/Shibi404/device_asus_sdm660-common" remote="gh" revision="ten" />
+ <project path="device/asus/sdm660-common" name="Shibi404/device_asus_sdm660-common" remote="gh" revision="ten" />
  
  <!--Vendor -->
  <project path="vendor/asus" name="Shibi404/vendor_asus" remote="gh" revision="ten" />
