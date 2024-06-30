@@ -6,7 +6,7 @@
             clone-depth="1" /> 
  
  <!--Tree -->
- <project path="device/asus/X01BD" name="thrdchld/android_device_asus_X01BD" remote="gh" revision="qassa" />
+ <project path="device/asus/X01BD" name="thrdchld/android_device_asus_X01BD" remote="gh" revision="qassa-vanilla" />
  
  <!--Vendor -->
  <project path="vendor/asus" name="thrdchld/android_vendor_asus_X01BD" remote="gh" revision="qassa" />
