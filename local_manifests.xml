@@ -6,16 +6,12 @@
             clone-depth="1" /> 
  
  <!--Tree -->
- <project path="device/asus/X01BD" name="thrdchld/android_device_asus_X01BD" remote="gh" revision="qassa" />
+ <project path="device/xiaomi/riva" name="thrdchld/android_device_xiaomi_riva_3-18" remote="gh" revision="lineage-17.1_3.18" />
  
  <!--Vendor -->
- <project path="vendor/asus" name="thrdchld/android_vendor_asus_X01BD" remote="gh" revision="qassa" />
+ <project path="vendor/xiaomi/riva" name="galihmrd/android_vendor_xiaomi_riva" remote="gh" revision="aosp" />
 
  <!--Kernel -->
- <project path="kernel/asus/sdm660" name="SonalSingh18/android_kernel_asus_sdm660" remote="gh" revision="ten" />
-
- <!--Clang -->
- <remove project="prebuilts/clang/host/linux-x86/clang-12.0.0" />
- <project path="prebuilts/clang/host/linux-x86/clang-12.0.0" name="kdrag0n/proton-clang" remote="gh" revision="master" />
+ <project path="kernel/xiaomi/msm8917" name="galihmrd/android_kernel_xiaomi_msm8917" remote="gh" revision="lineage-17.1" />
  
 </manifest>
