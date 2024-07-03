@@ -9,7 +9,7 @@
  <project path="device/xiaomi/riva" name="thrdchld/android_device_xiaomi_riva_3-18" remote="gh" revision="lineage-17.1_3.18" />
  
  <!--Vendor -->
- <project path="vendor/xiaomi/riva" name="galihmrd/android_vendor_xiaomi_riva" remote="gh" revision="carbon" />
+ <project path="vendor/xiaomi/riva" name="rulim34/vendor_xiaomi_riva" remote="gh" revision="ten-3.18" />
 
  <!--Kernel -->
  <project path="kernel/xiaomi/msm8917" name="galihmrd/android_kernel_xiaomi_msm8917" remote="gh" revision="lineage-17.1" />
