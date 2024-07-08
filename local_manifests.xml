@@ -6,16 +6,12 @@
             clone-depth="1" /> 
  
  <!--Tree -->
- <project path="device/asus/X01BD" name="thrdchld/android_device_asus_X01BD" remote="gh" revision="qassa" />
+ <project path="device/asus/X01BD" name="thrdchld/android_device_asus_X01BD_1" remote="gh" revision="qassa" />
  
  <!--Vendor -->
- <project path="vendor/asus" name="thrdchld/android_vendor_asus_X01BD" remote="gh" revision="qassa" />
+ <project path="vendor/asus/X01BD" name="thrdchld/proprietary_vendor_asus_X01BD_1" remote="gh" revision="lineage-17.1" />
 
  <!--Kernel -->
- <project path="kernel/asus/sdm660" name="SonalSingh18/android_kernel_asus_sdm660" remote="gh" revision="ten" />
-
- <!--Clang -->
- <remove project="prebuilts/clang/host/linux-x86/clang-12.0.0" />
- <project path="prebuilts/clang/host/linux-x86/clang-12.0.0" name="kdrag0n/proton-clang" remote="gh" revision="master" />
+ <project path="kernel/asus/sdm660" name="thrdchld/android_kernel_asus_sdm660_1" remote="gh" revision="lineage-17.1" />
  
 </manifest>
