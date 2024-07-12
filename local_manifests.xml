@@ -6,12 +6,13 @@
             clone-depth="1" /> 
  
  <!--Tree -->
- <project path="device/asus/X01BD" name="thrdchld/android_device_asus_X01BD_1" remote="gh" revision="qassa" />
+ <project path="device/asus/X01BD" name="thrdchld/android_device_asus_X01BD-4.19" remote="gh" revision="rising14" />
+ <project path="device/asus/sdm660-common" name="thrdchld/android_device_asus_sdm660-common-4.19" remote="gh" revision="lineage-21.0" />
  
  <!--Vendor -->
- <project path="vendor/asus/X01BD" name="thrdchld/proprietary_vendor_asus_X01BD_1" remote="gh" revision="qassa" />
+ <project path="vendor/asus" name="SonicBSV/proprietary_vendor_asus-4.19" remote="gh" revision="lineage-21.0" />
 
  <!--Kernel -->
- <project path="kernel/asus/sdm660" name="thrdchld/android_kernel_asus_sdm660_1" remote="gh" revision="lineage-17.1" />
+ <project path="kernel/asus/sdm660" name="SonicBSV/android_kernel_asus_sdm660-4.19" remote="gh" revision="master" />
  
 </manifest>
