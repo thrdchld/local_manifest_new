@@ -7,7 +7,7 @@
  
  <!--Device Tree -->
  <project path="device/asus/X01BD" name="thrdchld/android_device_asus_X01BD-4.19" remote="gh" revision="lineage-20.0" />
- <project path="device/asus/sdm660-common" name="thrdchld/android_device_asus_sdm660-common-4.19" remote="gh" revision="lineage-20.0s" />
+ <project path="device/asus/sdm660-common" name="thrdchld/android_device_asus_sdm660-common-4.19" remote="gh" revision="lineage-20.0" />
  
  <!--Vendor -->
  <project path="vendor/asus" name="SonicBSV/proprietary_vendor_asus-4.19" remote="gh" revision="lineage-20.0" />
